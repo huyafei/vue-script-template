@@ -1,0 +1,40 @@
+
+.ven-navbar{
+  position: relative;
+  height: 46px;
+  text-align: center;
+  line-height: 22px;
+}
+.ven-navbar,.ven-navbar__left,.ven-navbar_right{
+  display: flex;
+  align-items: center;
+}
+.ven-navbar__left,.ven-navbar_right{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size:14px ;
+}
+.ven-navbar__left{
+  left: 0;
+}
+.ven-navbar__title{
+  font-size:16px ;
+  max-width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ven-navbar_right{
+  right: 0;
+}
+.ven-navbar__text,.ven-navbar__icon{
+  color: #2b85e4;
+}
+.ven-navbar__icon{
+  font-size: 16px;
+  margin-right: 4px;
+}

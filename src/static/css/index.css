@@ -1,0 +1,32 @@
+@import "login.css";
+*{
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.ven-layout{
+  height: 100%;
+  position: relative;
+  min-width: 1366px;
+}
+.ven-header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.ven-menu{
+  position: absolute;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+}
+.ven-container {
+  position: absolute;
+  left: 220px;
+  top: 56px;
+  bottom: 0;
+  right: 0;
+}
