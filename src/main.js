@@ -1,6 +1,6 @@
 import "./static/js/vue.js"
 import router from "./router/index.js"
-import "https://unpkg.com/element-ui/lib/index.js"
+import "https://unpkg.com/element-ui@2.15.8/lib/index.js"
 import * as components from "./components/index.js"
 
 Object.keys(components).forEach(item=>{
